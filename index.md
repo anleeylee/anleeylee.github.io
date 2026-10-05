@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Anleey Lee — Asphalt Estimating & Woodworking Tools
+title: Anleey Lee — Estimating & Bioinformatics Tools
 ---
 
 # Anleey Lee
 
-**Developer of open-source desktop estimating tools for the asphalt & paving industry and for woodworking & lumber buying** — Python CLI tooling built around the [AsphaltCosts.com](https://asphaltcosts.com/) calculation engine (PDF/CAD quantity takeoff, specification checking, quote comparison, delivery-ticket reconciliation, audit-ready reports) and TypeScript tooling around the [BoardFootCalc.net](https://boardfootcalc.net/) lumber calculator (cut-list optimization, tally auditing, cutting layouts, inventory, quote estimating).
+**Developer of open-source desktop tools for estimating and bioinformatics** — Python CLI tooling around the [AsphaltCosts.com](https://asphaltcosts.com/) calculation engine (PDF/CAD quantity takeoff, specification checking, quote comparison, delivery-ticket reconciliation, audit-ready reports), TypeScript tooling around the [BoardFootCalc.net](https://boardfootcalc.net/) lumber calculator (cut-list optimization, tally auditing, cutting layouts, inventory, quote estimating), and local-first sequence analysis for [BioSyn](https://biosyn-inc.com/) (batch FASTA QC, GC%, molecular weight, pI).
 
 ## Featured project — Asphalt Desktop Intelligence
 
@@ -37,14 +37,22 @@ Each business scenario ships as its own self-contained GitHub repository:
 - **Lumber math source:** [BoardFootCalc.net](https://boardfootcalc.net/) — board foot calculators and guides
 - Companion tools in the same family (sharing one lumber calculation engine): tally & invoice auditing, 2D board cutting layouts, offline lumber inventory and quote/project estimating
 
+## Bioinformatics — BioSyn
+
+[**biosyn-fasta-batch-analyzer**](https://github.com/anleeylee/biosyn-fasta-batch-analyzer) is a **local-first batch FASTA sequence analyzer** for DNA, RNA and protein — Python CLI that computes GC%, length, base/amino-acid composition, molecular weight, reverse complement and isoelectric point (pI) across hundreds of sequences in one run, with PASS / REVIEW / INVALID quality-control classification and CSV / XLSX / HTML report export. All computation stays offline.
+
+- **Online counterpart:** [BioSyn FASTA sequence analyzer](https://biosyn-inc.com/tools/fasta-sequence-analyzer) — single-sequence web tool
+- Companion tools in the same family: multi-sequence alignment, primer design and genome feature analysis
+
 ## Why these tools
 
-Manual takeoff and estimating is slow and error-prone — in asphalt paving (dimensions hide inside PDF plans and CAD drawings, requirements hide in long specification documents, delivery tickets rarely match the estimate) and in woodworking (cut lists waste board, dealer tallies go unchecked). Every tool follows the same principles:
+Manual takeoff, estimating and sequence analysis is slow and error-prone — in asphalt paving (dimensions hide inside PDF plans and CAD drawings, requirements hide in long specification documents, delivery tickets rarely match the estimate), in woodworking (cut lists waste board, dealer tallies go unchecked), and in the lab (web tools handle one sequence at a time; hundreds of FASTA records cannot be pasted by hand). Every tool follows the same principles:
 
-- **Deterministic math** — tons, volume, coverage, truckloads and material cost come from the AsphaltCosts engine, never re-implemented
-- **Evidence-backed values** — every number carries source, method, confidence and verification state
+- **Deterministic math** — numbers come from a documented engine or standard library, never re-implemented ad hoc
+- **Evidence-backed values** — every result carries source, method, confidence and verification state
 - **No silent fixes** — low-confidence values and conflicts land in a review queue
-- **Audit-ready** — every run records inputs, hashes, engine version and outputs
+- **Audit-ready** — every run records inputs, hashes, version and outputs
+- **Privacy-first** — local files and sequences stay local; nothing is uploaded by default
 
 ## About
 

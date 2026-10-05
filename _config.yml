@@ -1,5 +1,5 @@
-title: Anleey Lee — Asphalt Estimating & Woodworking Tools
-description: GitHub Pages profile of Anleey Lee — open-source estimating tools for asphalt & paving (PDF/CAD quantity takeoff, spec checking, quote comparison, delivery-ticket reconciliation, audit-ready reports, AsphaltCosts.com) and for woodworking & lumber (board-foot cut-list optimization, BoardFootCalc.net).
+title: Anleey Lee — Estimating & Bioinformatics Tools
+description: GitHub Pages profile of Anleey Lee — open-source estimating & bioinformatics tools: asphalt & paving estimating (PDF/CAD quantity takeoff, spec checking, quote comparison, delivery-ticket reconciliation, audit-ready reports, AsphaltCosts.com), woodworking & lumber (board-foot cut-list optimization, BoardFootCalc.net) and batch FASTA sequence analysis (GC%, molecular weight, pI, BioSyn).
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-sitemap

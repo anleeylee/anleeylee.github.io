@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Anleey Lee — Asphalt & Construction Estimating Tools
+title: Anleey Lee — Asphalt Estimating & Woodworking Tools
 ---
 
 # Anleey Lee
 
-**Developer of open-source desktop estimating tools for the asphalt & paving industry** — Python CLI tooling built around the [AsphaltCosts.com](https://asphaltcosts.com/) calculation engine: PDF/CAD quantity takeoff, specification checking, contractor quote comparison, delivery-ticket reconciliation and audit-ready estimate reports.
+**Developer of open-source desktop estimating tools for the asphalt & paving industry and for woodworking & lumber buying** — Python CLI tooling built around the [AsphaltCosts.com](https://asphaltcosts.com/) calculation engine (PDF/CAD quantity takeoff, specification checking, quote comparison, delivery-ticket reconciliation, audit-ready reports) and TypeScript tooling around the [BoardFootCalc.net](https://boardfootcalc.net/) lumber calculator (cut-list optimization, tally auditing, cutting layouts, inventory, quote estimating).
 
 ## Featured project — Asphalt Desktop Intelligence
 
@@ -29,9 +29,17 @@ Each business scenario ships as its own self-contained GitHub repository:
 | [asphalt-field-photo-analyzer](https://github.com/anleeylee/asphalt-field-photo-analyzer) | Pavement distress screening (potholes, cracking, rutting) from site photos |
 | [asphalt-estimate-report-builder](https://github.com/anleeylee/asphalt-estimate-report-builder) | Audit-ready estimate reports (JSON / Markdown / XLSX / PDF) |
 
+## Woodworking & lumber — BoardFootCalc
+
+[**boardfootcalc-cut-list-optimizer**](https://github.com/anleeylee/boardfootcalc-cut-list-optimizer) (`bfc-optimize`) turns a woodworking cut list into an optimized, **lowest-waste lumber purchase plan** — TypeScript CLI with board matching, existing-inventory reuse, kerf-aware placement, cost/waste/board-count strategies and printable purchase lists.
+
+- **Live site:** [anleeylee.github.io/boardfootcalc-cut-list-optimizer](https://anleeylee.github.io/boardfootcalc-cut-list-optimizer/)
+- **Lumber math source:** [BoardFootCalc.net](https://boardfootcalc.net/) — board foot calculators and guides
+- Companion tools in the same family (sharing one lumber calculation engine): tally & invoice auditing, 2D board cutting layouts, offline lumber inventory and quote/project estimating
+
 ## Why these tools
 
-Manual asphalt takeoff is slow and error-prone: dimensions hide inside PDF plans and CAD drawings, requirements hide in long specification documents, and delivery tickets rarely match the estimate. Every tool follows the same principles:
+Manual takeoff and estimating is slow and error-prone — in asphalt paving (dimensions hide inside PDF plans and CAD drawings, requirements hide in long specification documents, delivery tickets rarely match the estimate) and in woodworking (cut lists waste board, dealer tallies go unchecked). Every tool follows the same principles:
 
 - **Deterministic math** — tons, volume, coverage, truckloads and material cost come from the AsphaltCosts engine, never re-implemented
 - **Evidence-backed values** — every number carries source, method, confidence and verification state

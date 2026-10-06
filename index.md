@@ -35,6 +35,9 @@ Each business scenario ships as its own self-contained GitHub repository:
 
 - **Live site:** [anleeylee.github.io/boardfootcalc-cut-list-optimizer](https://anleeylee.github.io/boardfootcalc-cut-list-optimizer/)
 - **Lumber math source:** [BoardFootCalc.net](https://boardfootcalc.net/) — board foot calculators and guides
+
+[**lumber-tally-auditor**](https://github.com/anleeylee/lumber-tally-auditor) (`bfc-audit`) audits lumber yard tallies and invoices line-by-line against 8 billing profiles — catch rounding overcharges and export a printable PDF audit report.
+
 - Companion tools in the same family (sharing one lumber calculation engine): tally & invoice auditing, 2D board cutting layouts, offline lumber inventory and quote/project estimating
 
 ## Bioinformatics — BioSyn
@@ -42,6 +45,9 @@ Each business scenario ships as its own self-contained GitHub repository:
 [**biosyn-fasta-batch-analyzer**](https://github.com/anleeylee/biosyn-fasta-batch-analyzer) is a **local-first batch FASTA sequence analyzer** for DNA, RNA and protein — Python CLI that computes GC%, length, base/amino-acid composition, molecular weight, reverse complement and isoelectric point (pI) across hundreds of sequences in one run, with PASS / REVIEW / INVALID quality-control classification and CSV / XLSX / HTML report export. All computation stays offline.
 
 - **Online counterpart:** [BioSyn FASTA sequence analyzer](https://biosyn-inc.com/tools/fasta-sequence-analyzer) — single-sequence web tool
+
+[**biosyn-primer-batch-qc**](https://github.com/anleeylee/biosyn-primer-batch-qc) is a **batch primer QC tool** — Tm, GC%, hairpin and dimer detection for thousands of primers from CSV/XLSX, fully offline Python CLI.
+
 - Companion tools in the same family: multi-sequence alignment, primer design and genome feature analysis
 
 ## Why these tools

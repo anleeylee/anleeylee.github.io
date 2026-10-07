@@ -38,6 +38,8 @@ Each business scenario ships as its own self-contained GitHub repository:
 
 [**lumber-tally-auditor**](https://github.com/anleeylee/lumber-tally-auditor) (`bfc-audit`) audits lumber yard tallies and invoices line-by-line against 8 billing profiles — catch rounding overcharges and export a printable PDF audit report.
 
+[**board-cutting-optimizer**](https://github.com/anleeylee/board-cutting-optimizer) generates real 2D guillotine cutting layouts for every board — grain, kerf and defect aware, with SVG / PDF cutting sheets and CSV exports.
+
 - Companion tools in the same family (sharing one lumber calculation engine): tally & invoice auditing, 2D board cutting layouts, offline lumber inventory and quote/project estimating
 
 ## Bioinformatics — BioSyn
@@ -47,6 +49,8 @@ Each business scenario ships as its own self-contained GitHub repository:
 - **Online counterpart:** [BioSyn FASTA sequence analyzer](https://biosyn-inc.com/tools/fasta-sequence-analyzer) — single-sequence web tool
 
 [**biosyn-primer-batch-qc**](https://github.com/anleeylee/biosyn-primer-batch-qc) is a **batch primer QC tool** — Tm, GC%, hairpin and dimer detection for thousands of primers from CSV/XLSX, fully offline Python CLI.
+
+[**biosyn-qpcr-csv-analyzer**](https://github.com/anleeylee/biosyn-qpcr-csv-analyzer) is a **qPCR CSV analyzer** — dCt/ddCt/fold change, replicate QC and standard curves from instrument exports, fully offline Python CLI.
 
 - Companion tools in the same family: multi-sequence alignment, primer design and genome feature analysis
 

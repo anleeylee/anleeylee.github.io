@@ -40,6 +40,8 @@ Each business scenario ships as its own self-contained GitHub repository:
 
 [**board-cutting-optimizer**](https://github.com/anleeylee/board-cutting-optimizer) generates real 2D guillotine cutting layouts for every board — grain, kerf and defect aware, with SVG / PDF cutting sheets and CSV exports.
 
+[**lumber-inventory-manager**](https://github.com/anleeylee/lumber-inventory-manager) is an offline-first SQLite lumber inventory with a full transaction ledger — natural-language search, project allocation, consumption and automatic offcut re-entry.
+
 - Companion tools in the same family (sharing one lumber calculation engine): tally & invoice auditing, 2D board cutting layouts, offline lumber inventory and quote/project estimating
 
 ## Bioinformatics — BioSyn
@@ -51,6 +53,8 @@ Each business scenario ships as its own self-contained GitHub repository:
 [**biosyn-primer-batch-qc**](https://github.com/anleeylee/biosyn-primer-batch-qc) is a **batch primer QC tool** — Tm, GC%, hairpin and dimer detection for thousands of primers from CSV/XLSX, fully offline Python CLI.
 
 [**biosyn-qpcr-csv-analyzer**](https://github.com/anleeylee/biosyn-qpcr-csv-analyzer) is a **qPCR CSV analyzer** — dCt/ddCt/fold change, replicate QC and standard curves from instrument exports, fully offline Python CLI.
+
+[**biosyn-serial-dilution-planner**](https://github.com/anleeylee/biosyn-serial-dilution-planner) is a **serial dilution planner** — multi-tube dilution schemes with pipetting volumes and safety checks, XLSX/CSV export, fully offline Python tool.
 
 - Companion tools in the same family: multi-sequence alignment, primer design and genome feature analysis
 

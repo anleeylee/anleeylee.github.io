@@ -60,6 +60,8 @@ Each business scenario ships as its own self-contained GitHub repository:
 
 [**biosyn-solution-preparation**](https://github.com/anleeylee/biosyn-solution-preparation) is a **batch solution preparation calculator** — molar, stock dilution, mass concentration and percentage modes with purity correction, fully offline Python tool.
 
+[**biosyn-experiment-report-generator**](https://github.com/anleeylee/biosyn-experiment-report-generator) is an **experiment report generator** — import data, QC, statistics, figures and reproducible reports with provenance tracking, fully offline Python tool.
+
 - Companion tools in the same family: multi-sequence alignment, primer design and genome feature analysis
 
 ## Why these tools

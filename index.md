@@ -64,6 +64,12 @@ Each business scenario ships as its own self-contained GitHub repository:
 
 - Companion tools in the same family: multi-sequence alignment, primer design and genome feature analysis
 
+## Party games — Pictionary word lists
+
+[**pictionary-wordlist-generator**](https://github.com/anleeylee/pictionary-wordlist-generator) batch-generates **themed Pictionary word libraries** (JSON) from a small seed file — difficulty grading (easy / medium / hard), category balancing, brand & sensitive-word filtering and de-duplication for family-safe, drawable party-game prompts.
+
+- **Online game:** [Pictionary Word Generator](https://pictionarywordgenerators.com/) — 7,000+ free drawing prompts
+
 ## Why these tools
 
 Manual takeoff, estimating and sequence analysis is slow and error-prone — in asphalt paving (dimensions hide inside PDF plans and CAD drawings, requirements hide in long specification documents, delivery tickets rarely match the estimate), in woodworking (cut lists waste board, dealer tallies go unchecked), and in the lab (web tools handle one sequence at a time; hundreds of FASTA records cannot be pasted by hand). Every tool follows the same principles:

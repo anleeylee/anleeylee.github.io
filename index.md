@@ -68,6 +68,8 @@ Each business scenario ships as its own self-contained GitHub repository:
 
 [**pictionary-wordlist-generator**](https://github.com/anleeylee/pictionary-wordlist-generator) batch-generates **themed Pictionary word libraries** (JSON) from a small seed file — difficulty grading (easy / medium / hard), category balancing, brand & sensitive-word filtering and de-duplication for family-safe, drawable party-game prompts.
 
+[**pictionary-wordlist-auditor**](https://github.com/anleeylee/pictionary-wordlist-auditor) audits themed word libraries for **quality and compliance** — in-library & cross-library de-duplication, trademark / brand-name scanning, sensitive-word filtering, length and difficulty validation, with an automatic audit log (JSON + Markdown) that keeps published word counts verifiable.
+
 - **Online game:** [Pictionary Word Generator](https://pictionarywordgenerators.com/) — 7,000+ free drawing prompts
 
 ## Why these tools

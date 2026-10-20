@@ -70,6 +70,8 @@ Each business scenario ships as its own self-contained GitHub repository:
 
 [**pictionary-wordlist-auditor**](https://github.com/anleeylee/pictionary-wordlist-auditor) audits themed word libraries for **quality and compliance** — in-library & cross-library de-duplication, trademark / brand-name scanning, sensitive-word filtering, length and difficulty validation, with an automatic audit log (JSON + Markdown) that keeps published word counts verifiable.
 
+[**pictionary-page-generator**](https://github.com/anleeylee/pictionary-page-generator) batch-generates **SEO-ready themed Pictionary content pages** (HTML) from word-library JSON — keyword-optimized title/meta, canonical URL, Open Graph tags, JSON-LD schema (WebPage + FAQPage), generator embed block, internal cross-links between every theme page and an automatically rewritten sitemap.xml.
+
 - **Online game:** [Pictionary Word Generator](https://pictionarywordgenerators.com/) — 7,000+ free drawing prompts
 
 ## Why these tools

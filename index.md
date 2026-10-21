@@ -72,6 +72,8 @@ Each business scenario ships as its own self-contained GitHub repository:
 
 [**pictionary-page-generator**](https://github.com/anleeylee/pictionary-page-generator) batch-generates **SEO-ready themed Pictionary content pages** (HTML) from word-library JSON — keyword-optimized title/meta, canonical URL, Open Graph tags, JSON-LD schema (WebPage + FAQPage), generator embed block, internal cross-links between every theme page and an automatically rewritten sitemap.xml.
 
+[**pictionary-seo-scanner**](https://github.com/anleeylee/pictionary-seo-scanner) crawls and audits a Pictionary word site's **SEO health** — on-page title / meta / canonical / Open Graph / JSON-LD completeness, broken-link (404) detection, sitemap-to-page consistency and robots.txt checks, with Markdown + JSON audit reports.
+
 - **Online game:** [Pictionary Word Generator](https://pictionarywordgenerators.com/) — 7,000+ free drawing prompts
 
 ## Why these tools

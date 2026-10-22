@@ -74,6 +74,8 @@ Each business scenario ships as its own self-contained GitHub repository:
 
 [**pictionary-seo-scanner**](https://github.com/anleeylee/pictionary-seo-scanner) crawls and audits a Pictionary word site's **SEO health** — on-page title / meta / canonical / Open Graph / JSON-LD completeness, broken-link (404) detection, sitemap-to-page consistency and robots.txt checks, with Markdown + JSON audit reports.
 
+[**pictionary-keyword-tracker**](https://github.com/anleeylee/pictionary-keyword-tracker) mines **long-tail Pictionary keywords** ("pictionary words for X"), compares your pages against competitor pages and ranks the next word list / theme page to build — Markdown + JSON content plans, standard library only.
+
 - **Online game:** [Pictionary Word Generator](https://pictionarywordgenerators.com/) — 7,000+ free drawing prompts
 
 ## Why these tools

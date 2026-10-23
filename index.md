@@ -76,6 +76,8 @@ Each business scenario ships as its own self-contained GitHub repository:
 
 [**pictionary-keyword-tracker**](https://github.com/anleeylee/pictionary-keyword-tracker) mines **long-tail Pictionary keywords** ("pictionary words for X"), compares your pages against competitor pages and ranks the next word list / theme page to build — Markdown + JSON content plans, standard library only.
 
+[**pictionary-gsc-monitor**](https://github.com/anleeylee/pictionary-gsc-monitor) monitors **Google Search Console coverage and traffic** — pulls clicks, impressions, queries and page indexing status from the Search Console API, flags not-indexed pages and outputs a weekly Markdown + JSON report, standard library only.
+
 - **Online game:** [Pictionary Word Generator](https://pictionarywordgenerators.com/) — 7,000+ free drawing prompts
 
 ## Why these tools

@@ -78,6 +78,8 @@ Each business scenario ships as its own self-contained GitHub repository:
 
 [**pictionary-gsc-monitor**](https://github.com/anleeylee/pictionary-gsc-monitor) monitors **Google Search Console coverage and traffic** — pulls clicks, impressions, queries and page indexing status from the Search Console API, flags not-indexed pages and outputs a weekly Markdown + JSON report, standard library only.
 
+[**pictionary-link-matrix**](https://github.com/anleeylee/pictionary-link-matrix) builds **anchor-text link-building material** for a Pictionary word site — GitHub README / GitHub Pages / Kaggle placement blocks and a cross-platform backlink matrix, with Markdown link hygiene enforced by design, standard library only.
+
 - **Online game:** [Pictionary Word Generator](https://pictionarywordgenerators.com/) — 7,000+ free drawing prompts
 
 ## Why these tools

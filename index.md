@@ -80,6 +80,8 @@ Each business scenario ships as its own self-contained GitHub repository:
 
 [**pictionary-link-matrix**](https://github.com/anleeylee/pictionary-link-matrix) builds **anchor-text link-building material** for a Pictionary word site — GitHub README / GitHub Pages / Kaggle placement blocks and a cross-platform backlink matrix, with Markdown link hygiene enforced by design, standard library only.
 
+[**pictionary-i18n-generator**](https://github.com/anleeylee/pictionary-i18n-generator) translates **word libraries and content pages into Spanish, German, French and Portuguese** — offline dictionary lookups, language-aware pages with complete hreflang alternate groups, canonical URLs and a hygiene verifier, standard library only.
+
 - **Online game:** [Pictionary Word Generator](https://pictionarywordgenerators.com/) — 7,000+ free drawing prompts
 
 ## Why these tools
